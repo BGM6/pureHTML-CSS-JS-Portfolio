@@ -147,8 +147,35 @@ img {
 
 
 
+/*Media queries*/
 
+@media (max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
 
+    #navbar a {
+        padding: 5px 5px;
+        margin: 0 3px;
+    }
+
+    #content p, h2 {
+        text-align: center;
+    }
+
+    #content h2 {
+        font-size: 2.5rem;
+        margin-bottom: 12px;
+    }
+
+    #content p {
+        font-size: .8rem;
+        line-height: 1.4;
+    }
+
+}
 
 
 
