@@ -107,25 +107,25 @@ header::before {
 
 /*Homepage Animation*/
 
-#content h2 {
-    transform: translateY(-1200px);
-    animation: heading var(--animate-speed) forwards ease-in;
-}
+/*#content h2 {*/
+/*    transform: translateY(-1200px);*/
+/*    animation: heading var(--animate-speed) forwards ease-in;*/
+/*}*/
 
-#content p {
-    transform: translateX(-2000px);
-    animation: text var(--animate-speed) forwards ease-in 2s;
-}
+/*#content p {*/
+/*    transform: translateX(-2000px);*/
+/*    animation: text var(--animate-speed) forwards ease-in 2s;*/
+/*}*/
 
-@keyframes heading {
-    to {
-        transform: translateY(0);
-    }
-}@keyframes text {
-     to {
-         transform: translateX(0);
-     }
- }
+/*@keyframes heading {*/
+/*    to {*/
+/*        transform: translateY(0);*/
+/*    }*/
+/*}@keyframes text {*/
+/*     to {*/
+/*         transform: translateX(0);*/
+/*     }*/
+/* }*/
 
 /*Icons*/
 
