@@ -1,0 +1,159 @@
+:root {
+    --animate-speed: 3s;
+}
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+    color: white;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar a {
+    color: #ffffff;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    border-bottom: mediumpurple 4px solid;
+    color: #ffffff;
+}
+
+/*Navbar Flex Settings*/
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    padding: 0 30px;
+    opacity: 0.7;
+    z-index: 1;
+    /*transition: 0.5s;*/
+}
+
+#navbar a {
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+.logo {
+    font-weight: 400;
+}
+
+/*Background*/
+h2 {
+    font-size: 6rem;
+    color: #ffffff;
+    margin: 2.2rem;
+}
+
+p {
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+header::before {
+    content: '';
+    background: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /*opacity: 0.5;*/
+}
+
+
+/*Homepage Animation*/
+
+#content h2 {
+    transform: translateY(-1200px);
+    animation: heading var(--animate-speed) forwards ease-in;
+}
+
+#content p {
+    transform: translateX(-2000px);
+    animation: text var(--animate-speed) forwards ease-in 2s;
+}
+
+@keyframes heading {
+    to {
+        transform: translateY(0);
+    }
+}@keyframes text {
+     to {
+         transform: translateX(0);
+     }
+ }
+
+/*Icons*/
+
+i {
+    color: mediumpurple;
+}
+
+.social a i {
+    color: mediumpurple;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
