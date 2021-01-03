@@ -142,7 +142,7 @@ i {
 
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -172,6 +172,35 @@ img {
 
     #content p {
         font-size: .8rem;
+        line-height: 1.4;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 499px) {
+    #navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    #navbar a {
+        font-size: 1.3rem;
+        padding: 5px 5px;
+        margin: 0 3px;
+    }
+
+    #content p, h2 {
+        text-align: center;
+    }
+
+    #content h2 {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+
+    #content p {
+        font-size: 1.2rem;
         line-height: 1.4;
     }
 
