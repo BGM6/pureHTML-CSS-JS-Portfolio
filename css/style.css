@@ -2,11 +2,17 @@
     --animate-speed: 3s;
 }
 
- * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden; }
 
 html, body {
     font-family: 'Open Sans', sans-serif;
@@ -20,12 +26,6 @@ ul {
 a {
     color: #333;
     text-decoration: none;
-}
-
-h1 {
-    font-weight: 400;
-    line-height: 1.2;
-    color: white;
 }
 
 #navbar {
@@ -44,7 +44,6 @@ h1 {
 }
 
 /*Navbar Flex Settings*/
-
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -68,22 +67,23 @@ h1 {
     display: flex;
 
 }
+
 .logo {
     font-weight: 400;
 }
 
 /*Background*/
-h2 {
+.content-h1 {
     font-size: 6rem;
     color: #ffffff;
     margin: 2.2rem;
 }
 
-p {
+.content-p {
     color: #ffffff;
 }
 
-header {
+#landing-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,7 +92,7 @@ header {
     height: 100vh;
 }
 
-header::before {
+#landing-page::before {
     content: '';
     background: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80') no-repeat center center/cover;
     position: absolute;
@@ -140,12 +140,9 @@ i {
 }
 
 
-
 img {
-    max-width: 100%;
+width: 100%;
 }
-
-
 
 /*Media queries*/
 
@@ -205,6 +202,65 @@ img {
     }
 
 }
+
+
+/*About Page*/
+
+#about-a {
+    margin-top: 120px;
+    align-items: center;
+    text-align: center;
+}
+
+/*Grid Section*/
+
+#about-a .about-info {
+    display: grid;
+    grid-template-areas: 'bioimage bio bio';
+    grid-gap: 1.2rem;
+}
+
+#about-a .bio-image {
+    grid-area: bioimage;
+}
+
+#about-a .bio {
+    grid-area: bio;
+    border-left: 3px solid mediumpurple;
+    padding: 0.8rem;
+    background: #f4f4f4;
+    text-align: justify;
+}
+
+.section-title {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase; }
+
+.bottom-line {
+    height: 2px;
+    width: 4rem;
+    background: mediumpurple;
+    display: block;
+    margin: 0 auto 1rem auto; }
+
+.lead {
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
