@@ -12,7 +12,8 @@
     max-width: 1280px;
     padding: 0 1.5rem;
     margin: auto;
-    overflow: hidden; }
+    overflow: hidden;
+}
 
 html, body {
     font-family: 'Open Sans', sans-serif;
@@ -53,7 +54,7 @@ a {
     position: fixed;
     top: 0;
     padding: 0 30px;
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     z-index: 1;
     /*transition: 0.5s;*/
 }
@@ -141,68 +142,8 @@ i {
 
 
 img {
-width: 100%;
+    width: 100%;
 }
-
-/*Media queries*/
-
-@media (max-width: 500px) {
-    #navbar {
-        flex-direction: column;
-        height: 120px;
-        padding: 20px;
-    }
-
-    #navbar a {
-        padding: 5px 5px;
-        margin: 0 3px;
-    }
-
-    #content p, h2 {
-        text-align: center;
-    }
-
-    #content h2 {
-        font-size: 2.5rem;
-        margin-bottom: 12px;
-    }
-
-    #content p {
-        font-size: .8rem;
-        line-height: 1.4;
-    }
-
-}
-
-@media (max-width: 768px) and (min-width: 499px) {
-    #navbar {
-        flex-direction: column;
-        height: 120px;
-        padding: 20px;
-    }
-
-    #navbar a {
-        font-size: 1.3rem;
-        padding: 5px 5px;
-        margin: 0 3px;
-    }
-
-    #content p, h2 {
-        text-align: center;
-    }
-
-    #content h2 {
-        font-size: 4rem;
-        margin-bottom: 20px;
-    }
-
-    #content p {
-        font-size: 1.2rem;
-        line-height: 1.4;
-    }
-
-}
-
 
 /*About Page*/
 
@@ -238,20 +179,132 @@ width: 100%;
     padding-bottom: 0.5rem;
     text-align: center;
     font-weight: 100;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+}
 
 .bottom-line {
     height: 2px;
     width: 4rem;
     background: mediumpurple;
     display: block;
-    margin: 0 auto 1rem auto; }
+    margin: 0 auto 1rem auto;
+}
 
 .lead {
     margin-bottom: 1rem;
 }
 
+/*Section B - Progress Bar*/
 
+#about-b {
+    margin-top: 2rem;
+}
+
+.progress {
+    background: #ccc;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 0.3rem;
+    overflow: hidden;
+}
+
+.progress div {
+    background: mediumpurple;
+    border-radius: 5px;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+}
+
+#bar-icon {
+    color: #333;
+}
+
+/*Footer*/
+
+#main-footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+/*Media queries*/
+
+@media (max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        height: 100px;
+        padding: 20px;
+    }
+
+    #navbar a {
+        font-size: .9rem;
+        padding: 5px 5px;
+        margin: 0 3px;
+    }
+
+    #content p, h2 {
+        text-align: center;
+    }
+
+    #content h2 {
+        font-size: 2.5rem;
+        margin-bottom: 12px;
+    }
+
+    #content p {
+        font-size: .8rem;
+        line-height: 1.4;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    /*About Page*/
+    #about-a .about-info {
+        grid-template-areas: 'bioimage'
+    'bio'
+    'bio';
+    }
+
+    #about-a .section-title {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 499px) {
+    #navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    #navbar a {
+        font-size: 1.3rem;
+        padding: 5px 5px;
+        margin: 0 3px;
+    }
+
+    #content p, h2 {
+        text-align: center;
+    }
+
+    #content h2 {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+
+    #content p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+}
 
 
 
