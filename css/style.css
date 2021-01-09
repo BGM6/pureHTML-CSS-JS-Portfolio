@@ -102,7 +102,6 @@ a {
     height: 100vh;
     z-index: -1;
     overflow: hidden;
-    /*opacity: 0.5;*/
 }
 
 
@@ -146,7 +145,6 @@ img {
 }
 
 /*About Page*/
-
 #about-a {
     margin-top: 120px;
     align-items: center;
@@ -195,7 +193,6 @@ img {
 }
 
 /*Section B - Progress Bar*/
-
 #about-b {
     margin-top: 2rem;
 }
@@ -221,7 +218,6 @@ img {
 }
 
 /*Footer*/
-
 #main-footer {
     background-color: #333;
     color: #fff;
@@ -232,7 +228,6 @@ img {
 }
 
 /*Media queries*/
-
 @media (max-width: 500px) {
     #navbar {
         flex-direction: column;
