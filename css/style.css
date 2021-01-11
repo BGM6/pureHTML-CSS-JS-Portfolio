@@ -157,7 +157,7 @@ img {
 .section-title {
     font-size: 2rem;
     display: block;
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
     text-align: center;
     font-weight: 100;
     text-transform: uppercase;
@@ -184,8 +184,9 @@ img {
     background: #ccc;
     border-radius: 5px;
     height: 20px;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
     overflow: hidden;
+
 }
 
 .progress div {
@@ -323,7 +324,6 @@ h1 {
     font-size: 1rem;
     text-align: center;
     padding: 10px 10px;
-
 }
 
 /*Media queries*/
