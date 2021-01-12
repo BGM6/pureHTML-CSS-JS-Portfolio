@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+hr {
+    color: mediumpurple;
+}
+
 #navbar {
     background-color: #333;
     color: #fff;
@@ -58,7 +62,7 @@ a {
     top: 0;
     padding: 0 30px;
     z-index: 1;
-    opacity: 0.6;
+    /*opacity: 0.6;*/
     /*transition: 0.5s;*/
 }
 
@@ -120,7 +124,7 @@ i {
 }
 
 .fa-chevron-right {
- color: #333;
+    color: #333;
 }
 
 
@@ -317,6 +321,75 @@ h1 {
 #timeline ul li.show {
     background: var(--secondary-color);
 }
+
+/*Projects Page*/
+
+#project-a {
+    margin: 0 8rem;
+    height: 100vh;
+}
+
+#project-a .container .section-title {
+    margin-top: 7.5rem;
+}
+
+#project-a .container .bottom-line {
+    margin-top: 0.5rem;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.item-text-category {
+    padding: 0.3rem;
+}
+
+.buttons {
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.buttons a {
+    width: 20%;
+    border-radius: 3px;
+    background: mediumpurple;
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.buttons a:hover {
+    opacity: 0.9;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);*/
+    grid-gap: 1rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.item-image img {
+    /*top: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    /*height: auto;*/
+    line-height: 0;
+}
+
+.card-item {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+
+    /*border: 2px solid #ccc;*/
+}
+
 
 /*Footer*/
 #main-footer {
