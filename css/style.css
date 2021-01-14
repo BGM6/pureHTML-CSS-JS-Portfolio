@@ -36,6 +36,10 @@ hr {
     color: mediumpurple;
 }
 
+h4 {
+    text-align: justify;
+}
+
 #navbar {
     background-color: #333;
     color: #fff;
@@ -183,6 +187,7 @@ img {
 /*Section B - Progress Bar*/
 #about-b {
     margin-top: 2rem;
+
 }
 
 .progress {
