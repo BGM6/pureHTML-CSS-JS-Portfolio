@@ -164,7 +164,7 @@ img {
 }
 
 .section-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: block;
     margin-bottom: 0.3rem;
     text-align: center;
@@ -335,7 +335,9 @@ h1 {
 }
 
 #project-a .container .section-title {
-    margin-top: 7rem;
+    margin-top: 6.5rem;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 #project-a .container .bottom-line {
@@ -586,7 +588,7 @@ h1 {
 
         border-radius: 3px;
         background: mediumpurple;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         display: inline-block;
         padding: 0.1rem 0.2rem;
         width: 30%;
