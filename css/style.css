@@ -166,10 +166,10 @@ img {
 .section-title {
     font-size: 1.5rem;
     display: block;
-    margin-bottom: 0.3rem;
     text-align: center;
     font-weight: 100;
     text-transform: uppercase;
+    padding-bottom: 1rem;
 }
 
 .bottom-line {
@@ -336,12 +336,6 @@ h1 {
 
 #project-a .container .section-title {
     margin-top: 6.5rem;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-#project-a .container .bottom-line {
-    margin-top: 0.5rem;
 }
 
 #project-a .lead {
@@ -398,6 +392,85 @@ h1 {
 }
 
 
+/*Contact Page*/
+.py-3 {
+    padding: 3rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+#contact-a {
+    margin-top: 5rem;
+}
+#contact-a .text-fields {
+    display: grid;
+    grid-template-areas: 'name email'
+ 'subject phone'
+ 'message message';
+    grid-gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+#contact-a .text-fields .name-input {
+    grid-area: name;
+}
+
+#contact-a .text-fields .subject-input {
+    grid-area: subject;
+}
+
+#contact-a .text-fields .email-input {
+    grid-area: email;
+}
+
+#contact-a .text-fields .phone-input {
+    grid-area: phone;
+}
+
+#contact-a .text-fields .message-input {
+    grid-area: message;
+    height: 100px;
+}
+
+#contact-a .text-fields .text-input {
+    padding: 0.5rem 1rem;
+}
+
+#contact-a button[type='submit'] {
+    border-radius: 3px;
+    background: mediumpurple;
+    font-size: 0.7rem;
+    padding: 0.5rem 0.2rem;
+    width: 50%;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+#contact-b .contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+#contact-c h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#contact-b {
+    height: 100vh;
+}
+
 /*Footer*/
 #main-footer {
     background-color: #333;
@@ -441,6 +514,7 @@ h1 {
     }
 
     /*About Page*/
+
     #about-a .about-info {
         grid-template-areas: 'bioimage'
     'bio'
@@ -482,6 +556,7 @@ h1 {
         padding: 0.1rem 0.2rem;
 
     }
+
 }
 
 @media (max-width: 767px) and (min-width: 499px) {
