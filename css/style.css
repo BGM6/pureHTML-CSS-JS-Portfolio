@@ -130,6 +130,10 @@ i {
     margin-top: 10px;
     margin-right: 5px;
 }
+.social a i:hover {
+    transform: scale(1.2);
+}
+
 
 .fa-chevron-right {
     color: #333;
@@ -191,6 +195,7 @@ img {
 /*Section B - Progress Bar*/
 #about-b {
     margin-top: 2rem;
+    height: 100vh;
 
 }
 
@@ -392,7 +397,6 @@ h1 {
     /*border: 2px solid #ccc;*/
 }
 
-
 /*Contact Page*/
 .py-3 {
     padding: 3rem 0;
@@ -506,6 +510,7 @@ h1 {
 
 .footer-social i:hover {
     transform: scale(1.2);
+    color: mediumpurple;
 }
 
 /*Media queries*/
