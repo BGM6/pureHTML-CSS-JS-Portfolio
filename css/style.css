@@ -199,6 +199,10 @@ img {
 
 }
 
+#about-b i {
+    font-size: 3rem;
+    padding: 1rem;
+}
 .progress {
     background: #ccc;
     border-radius: 5px;
