@@ -161,6 +161,8 @@ img {
 
 #about-a .bio-image {
     grid-area: bioimage;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #about-a .bio {
@@ -203,31 +205,12 @@ img {
     font-size: 3rem;
     padding: 1rem;
 }
-.progress {
-    background: #ccc;
-    border-radius: 5px;
-    height: 20px;
-    margin-bottom: 0.5rem;
-    overflow: hidden;
-
-}
-
-.progress div {
-    background: mediumpurple;
-    border-radius: 5px;
-    color: #fff;
-    height: 100%;
-    text-align: center;
-}
 
 #bar-icon {
     color: #333;
 }
 
-
 /*Timeline*/
-
-
 #main-header {
     background: var(--primary-color);
     padding-top: 6rem;
